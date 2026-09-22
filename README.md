@@ -1,2 +1,6 @@
 # 2026-narration-gsap
-Project de page narrative utilisant GSAP.
+
+
+##Description
+Projet de page narrative utilisant GSAP.
+Ce projet est réalisé à l'école ESD
