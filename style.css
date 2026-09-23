@@ -1,0 +1,61 @@
+/* Base ---------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Variables ------------------*/
+
+/* Typographie------------------*/
+
+.h100{
+    .lavishly-yours-regular {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
+
+.h100{
+    color:black;
+    font-size: 70px;
+}
+
+/* Design de la page ------------*/
+.h100{
+    min-height: 100vh;
+    background-color: beige;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-light{
+    background-color: #FFCC3F;
+}
+
+
+.bg-dark{
+    background-color: fafafa;
+    display: flex;
+    gap: 20px;
+
+}
+
+/*Animation bloc section 2--------- */
+.bg-dark{
+    animation-direction: normal;
+    
+}
+
+
+.block{
+    background-color: #FFCC3F;
+    width: 200px;
+    height: 500px;
+    flex: 1;
+    padding: 20px;
+    border:1px;
+}
