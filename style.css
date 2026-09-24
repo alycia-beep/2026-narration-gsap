@@ -4,11 +4,10 @@
     padding: 0px;
 }
 
-/* Variables ------------------*/
 /*-------------------------------------------------- Section 1 ------------------------------------------------*/
 
 
-/* Typographie------------------*/
+/* -------------Typographie------------------*/
 
 .h100{
   .nosifer-regular {
@@ -24,7 +23,7 @@
 }
 
 
-/* Design de la page ------------*/
+/* ------------Design de la page ------------*/
 
 
 #section1{
@@ -53,12 +52,9 @@
 
 
 
-
-
-
 .h100{
     min-height: 90vh;
-    background-image: url(chemin/vers/img1.jpeg);
+    
 }
 
 
@@ -70,18 +66,6 @@
     padding: 50px 20px;
 }
 
-/*.media-container {
-    position: relative;
-    width: 100%; /* Taille image*/
-    /*max-width: 1100px; /* Largeur maximale pour les grands écrans 
-}
-
-/*.media-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px; /* arrondit les coins de l'image 
-}
 
 /*Mozilla*/
 .text-overlay {
@@ -137,13 +121,6 @@
     transition: all 1s ease; /* Animation fluide */
 }
 
-/* animation ajoutée en JS 
-.vetement.tombe {
-    top: 250px; 
-    opacity: 1;
-}*/
-
-
 
 
 /* La zone de la section 2 */
@@ -160,33 +137,18 @@
 }
 
 
-/*Taille vêtements */
-/*.vetement {
-    /*position: absolute;
-    top: -150px; /* Point de départ au-dessus */
-    /*left: 50%;
-    transform: translateX(-50%);
-    
-    width: 130px; /* taille des vêtements */
-    /*height: auto; /* Conserve les proportions des images */
-    /*object-fit: contain;
-    
-    /*opacity: 0;
-}
-
 /* Position finale quand ils tombent */
 .vetement.tombe {
-    top: 320px; /* Ajustez cette valeur selon la position de votre sac en bas */
+    top: 320px;
     opacity: 1;
 }
 
 
 
 
-
 /* -------------------------------------Sac de shopping ------------------------------------------*/
 
-/* Expliquation Gemini*/
+/*Gemini*/
 
 /* Le sac de shopping */
 .sac {
@@ -228,7 +190,6 @@
 
 
 
-    
 
 .bg-dark{
     background-color: fafafa;
@@ -236,7 +197,6 @@
     gap: 20px;
 
 }
-
 
 
 
