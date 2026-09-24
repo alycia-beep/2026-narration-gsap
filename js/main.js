@@ -26,6 +26,28 @@ gsap.from(".section1-txt",{
 
 
 
+/* ---------------------------Animation texte section 2 --------------------*/
+gsap.fromTo(".mot1",{
+    x:"-900px",
+    duration: 3,
+},
+{x:"30vw",
+    duration: 3,
+}
+)
+
+
+gsap.fromTo(".mot2",{
+    x:"900px",
+    duration: 3,
+    
+},
+{x:"30vw",
+    duration: 3,
+})
+
+
+
 /* ------------------------------Animation deuxième section -----------------*/
 gsap.fromTo(".vetement", 
   { opacity: 0, y: 0 },
@@ -45,9 +67,27 @@ gsap.fromTo(".vetement",
 
 
 
+
+/*------------------------------Animation texte troisieme section -------------------*/
+gsap.fromTo(".titre",{
+    x:"-900px",
+    duration: 3,
+},
+{x:"2vw",
+    duration: 3,
+}
+)
+
+
+
+
+
+
 /*------------------------------ Animation troisième section ------------------------*/
 
 Draggable.create('.bloc')
+
+
 
 
 
